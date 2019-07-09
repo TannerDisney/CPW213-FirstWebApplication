@@ -9,19 +9,23 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="css/site.css" />
 </head>
 <body>
     <header>
         <h1>First MVC Web Application</h1>
     </header>
     <nav>
-
+        <ul>
+            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a asp-controller="Home" asp-action="Contact">Contact Us</a></li>
+        </ul>
     </nav>
     <main>
         @RenderBody()
     </main>
     <footer>
-
+        &copy; @DateTime.Now.Year
     </footer>
 </body>
 </html>

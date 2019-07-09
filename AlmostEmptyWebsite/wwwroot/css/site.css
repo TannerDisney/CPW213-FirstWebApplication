@@ -1,0 +1,12 @@
+﻿h1 {
+    text-align: center;
+    border: 0.3em dashed black;
+}
+
+nav > ul {
+    list-style-type: none;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
