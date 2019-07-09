@@ -9,7 +9,7 @@ namespace AlmostEmptyWebsite.Controllers
     public class HomeController : Controller
     {
         /**
-         * An ASP>NET Action is a public method
+         * An ASP.NET Action is a public method
          * in a controller class.
          * */
         public IActionResult Index()
